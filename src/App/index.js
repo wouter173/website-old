@@ -1,14 +1,21 @@
 import React from 'react';
 import Header from '../Header/'
 import Sidebar from '../SideBar/'
+import About from '../About/';
+import Projects from '../Projects/';
+import Footer from '../Footer/';
 
 import './main.scss'
+import './root.scss'
 
-export default function Main() {
+export default function App() {
 	return (
-		<div id="Main">
+		<div id="App">
 			<Sidebar/>
-			<Header/>
+			<Header />
+			<About />
+			<Projects />
+			<Footer />
 		</div>
 	)
 }

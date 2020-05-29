@@ -1,0 +1,12 @@
+:root {
+	--background-color: black;
+	--test-color: red;
+}
+
+
+* {
+	color: var(--test-color);
+
+	padding: 0px;
+	margin: 0px;
+}
