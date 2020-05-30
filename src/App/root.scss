@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+	--background-color-dark: #2b2b2b;
+	--background-color-light: white;
+
+	--text-color-dark: #202020;
+	--text-color-light: white;
+
+
+	--background-color: var(--background-color-light);
+}
+
+
+* {
+	color: var(--text-color-dark);
+
+	padding: 0px;
+	margin: 0px;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
