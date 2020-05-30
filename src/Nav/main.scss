@@ -1,0 +1,44 @@
+#Nav {
+	position: sticky;
+	top: 0;
+
+	height: 70px;
+	width: 100%;
+
+	background-color: var(--background-color);
+
+	ul {
+		list-style: none;
+
+		.left {
+			float: left;
+			margin-left: 5vw;
+
+			.icon {
+				width: 40px;
+				height: 40px;
+				
+				margin-top: 15px;
+
+				background-image: url("/favicon.png");
+				background-position: center;
+				background-size: contain;
+			}
+		}
+		
+		.right {
+			float: right;
+			display: flex;
+			margin-right: 5vw;
+
+			li {
+				height: 70px;
+				width: 80px;
+
+				a {
+					line-height: 70px;
+				}
+			}
+		}
+	}
+}
