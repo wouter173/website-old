@@ -1,19 +1,16 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll';
 import './main.scss'
 
 export default function Nav() {
 	return (
     <nav id="Nav">
-      <ul>
-        <div className="left">
-          <li> <div className="icon"></div></li>
-        </div>
-        <div className="right">
-          <li className="center"> <a href="#About">About</a> </li>
-          <li className="center"> <a href="#Projects">Projects</a> </li>
-          <li className="center"> <a href="#Contact">Contact</a> </li>
-        </div>
-      </ul>
+        <div className="left icon"></div>
+        <ul className="right">
+          <li className="center"> <Link to="About" smooth={true}>About</Link> </li>
+          <li className="center"> <Link to="Projects" smooth={true}>Projects</Link></li>
+          <li className="center"> <Link to="Contact" smooth={true}>Contact</Link> </li>
+        </ul>
     </nav>
   );
 }
