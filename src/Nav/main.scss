@@ -6,39 +6,33 @@
 	width: 100%;
 
 	background-color: var(--background-color);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+
+	.icon {
+		width: 40px;
+		height: 40px;
+
+		margin-top: 15px;
+		margin-left: 5vw;
+
+		background-image: url("/favicon.png");
+		background-position: center;
+		background-size: contain;
+	}
 
 	ul {
 		list-style: none;
+		display: flex;
+		margin-right: 5vw;
 
-		.left {
-			float: left;
-			margin-left: 5vw;
+		li {
+			height: 70px;
+			width: 80px;
 
-			.icon {
-				width: 40px;
-				height: 40px;
-				
-				margin-top: 15px;
-
-				background-image: url("/favicon.png");
-				background-position: center;
-				background-size: contain;
+			a {
+				line-height: 70px;
+				font-weight: 300;
 			}
-		}
-		
-		.right {
-			float: right;
-			display: flex;
-			margin-right: 5vw;
-
-			li {
-				height: 70px;
-				width: 80px;
-
-				a {
-					line-height: 70px;
-				}
-			}
-		}
+		}		
 	}
 }

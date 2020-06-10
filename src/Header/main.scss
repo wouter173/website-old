@@ -1,4 +1,48 @@
 #Header {
-	height: 200vh;
-	background-color: crimson;
+	height: calc(100vh - 70px);
+
+	background-image: url("/header.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	.hero {
+		height: 80%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		color: var(--text-color-light);
+		text-shadow: 2px 2px rgba(0,0,0,0.1);
+
+		h1 {
+			color: inherit;
+			font-weight: 600;
+		}
+
+		h3 {
+			color: inherit;
+			font-weight: 100;
+		}
+	}
+
+	.scroll {
+		height: 20%;
+
+		
+		.icon {
+			color: var(--text-color-light);
+			font-size: 16pt;
+
+			transition: 0.2s;
+
+			path {
+				color: inherit;
+			}
+		}
+
+		.icon:hover {
+			transform: translateY(-5px);
+		}
+	}
 }
