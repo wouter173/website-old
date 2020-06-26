@@ -9,13 +9,12 @@ export default function Projects() {
       <div className="divider"></div>
 
       <div className="projects">
-        <Project name="henkie" background="/header.jpg" description="personal website" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="henkie" background="/header.jpg" description="personal website" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="henkie"></Project>
-        <Project name="henkie"></Project>
-        <Project name="henkie"></Project>
-        <Project name="henkie"></Project>
-        <Project name="henkie"></Project>
+        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
       </div>
     </section>
   );
