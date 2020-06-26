@@ -1,6 +1,7 @@
 import React from 'react'
+import Icon from '../Icon'
 import { Link } from 'react-scroll'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 import './main.scss'
 
 export default function Header() {
@@ -12,7 +13,7 @@ export default function Header() {
       </div>
       <div className="scroll center">
         <Link to="About" smooth={true}>
-          <FontAwesomeIcon icon="angle-double-down" className="icon" />
+          <Icon icon={faAngleDoubleDown} large/>
         </Link>
       </div>
     </header>

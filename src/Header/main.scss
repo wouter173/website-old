@@ -29,16 +29,8 @@
 	.scroll {
 		height: 20%;
 
-		
 		.icon {
-			color: var(--text-color-light);
-			font-size: 16pt;
-
 			transition: 0.2s;
-
-			path {
-				color: inherit;
-			}
 		}
 
 		.icon:hover {

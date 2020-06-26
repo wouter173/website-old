@@ -4,7 +4,7 @@ import './main.scss'
 export default function About() {
 	return (
 		<section id="About">
-			test
+			COMMING SOON
 		</section>
 	)
 }
