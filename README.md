@@ -16,3 +16,10 @@ these are the web technology's used building my website
 3. gsap
 4. Sass
 5. Fontawesome
+
+
+## todo 
+
+[ ] about page
+[ ] contact page
+[ ] header about scroll icon gsap animated instead of css animated
