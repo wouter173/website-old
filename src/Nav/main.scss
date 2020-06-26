@@ -1,6 +1,7 @@
 #Nav {
 	position: sticky;
 	top: 0;
+	z-index: 5;
 
 	height: 70px;
 	width: 100%;
@@ -32,6 +33,7 @@
 			a {
 				line-height: 70px;
 				font-weight: 300;
+				cursor: pointer;
 			}
 		}		
 	}
