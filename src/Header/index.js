@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import Icon from '../Icon'
+import { TimelineMax } from 'gsap'
 import { Link } from 'react-scroll'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 import './main.scss'
 
 export default function Header() {
+  let icon = useRef(null)
+  let timeline = new TimelineMax({ repeat: -1, repeatDelay: 1.4 });
+
+  useEffect(() => {
+    timeline.to(icon, 0.2, {
+        y: -5,
+      }).to(icon, 0.2, {
+        y: 0,
+      }).to(icon, 0.2, {
+        y: -5,
+      }).to(icon, 0.2, {
+        y: 0,
+      }) 
+  }, [timeline])
+
 	return (
     <header id="Header">
       <div className="hero center">
@@ -13,7 +29,9 @@ export default function Header() {
       </div>
       <div className="scroll center">
         <Link to="About" smooth={true}>
-          <Icon icon={faAngleDoubleDown} large/>
+          <div ref={el => icon = el} onMouseEnter={() => {timeline.pause()}} onMouseLeave={() => {timeline.resume()}}>
+            <Icon icon={faAngleDoubleDown} large/>
+          </div>
         </Link>
       </div>
     </header>

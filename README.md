@@ -22,4 +22,5 @@ these are the web technology's used building my website
 
 [ ] about page
 [ ] contact page
-[ ] header about scroll icon gsap animated instead of css animated
+[x] header about scroll icon gsap animated instead of css animated
+[x] project animtion bug: name goes down when the meta didn't animate out

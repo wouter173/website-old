@@ -1,6 +1,6 @@
-import React, { useRef } from 'react'
-import {TweenMax, Power3} from 'gsap'
-import Icon  from '../Icon'
+import React, { useRef, useEffect } from 'react'
+import Icon from '../Icon'
+import { TweenMax, Power3, TimelineMax } from 'gsap';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons'
 
@@ -9,25 +9,31 @@ import './main.scss';
 export default function Project(props) {
 	let name = useRef(null)
 	let meta = useRef(null)
+	let timeline = new TimelineMax();
+
+	useEffect(() => {
+		let nameTween = new TweenMax(name, 0.2, {
+			y: -40,
+			ease: Power3.easeOut
+		})
+		
+		let metaTween = new TweenMax(meta, 0.1, {
+      opacity: 1,
+      ease: Power3.easeIn,
+		})
+		
+		timeline.add(nameTween, 0)
+		timeline.add(metaTween, 0.1)
+
+		timeline.reverse()
+	}, [timeline])
 
 	const MouseEnterHandler = () => {
-    TweenMax.to(name, 0.2, {
-      y: -40,
-    });
-    TweenMax.to(meta, 0.1, {
-      opacity: 1,
-      delay: 0.1,
-      ease: Power3.easeIn,
-    });
+		timeline.play()
   };
 	
 	const MouseLeaveHandler = () => {
-		TweenMax.to(meta, 0.1, {
-      opacity: 0,
-    });
-		TweenMax.to(name, 0.2, {
-			y: 0
-    });
+		timeline.reverse()
 	}
 
 	return (
