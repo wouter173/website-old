@@ -20,7 +20,7 @@ these are the web technology's used building my website
 
 ## todo 
 
-[ ] about page
-[ ] contact page
-[x] header about scroll icon gsap animated instead of css animated
-[x] project animtion bug: name goes down when the meta didn't animate out
+- [ ] about page
+- [ ] contact page
+- [x] header about scroll icon gsap animated instead of css animated
+- [x] project animtion bug: name goes down when the meta didn't animate out
