@@ -1,10 +1,11 @@
 import React from 'react'
+import Section from '../Section'
 import './main.scss'
 
 export default function About() {
 	return (
-		<section id="About">
+		<Section title="About">
 			COMMING SOON
-		</section>
+		</Section>
 	)
 }
