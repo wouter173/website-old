@@ -1,21 +1,18 @@
 import React from 'react'
+import Section from '../Section'
 import Project from '../Project'
 import './main.scss'
+import './responsive.scss'
 
 export default function Projects() {
 	return (
-    <section id="Projects">
-      <div className="title">Projects</div>
-      <div className="divider"></div>
-
-      <div className="projects">
-        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-        <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
-      </div>
-    </section>
+    <Section title="Projects">
+      <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+      <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+      <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+      <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+      <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+      <Project name="comming soon!" background="/header.jpg" description="test github and website icon's" repo="https://github.com/wouter173/website" link="https://wouterdb.nl"></Project>
+    </Section>
   );
 }

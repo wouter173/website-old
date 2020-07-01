@@ -1,5 +1,40 @@
-#About {
-	display: none;
-	height: 200px;
-	background-color: purple;
-}
+#About .content{
+	margin-top: 30px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 33%);
+	grid-template-rows: 200px;
+
+	.properties {
+		text-align: center;
+		margin: auto;
+	}
+
+	.photo  {
+		margin: auto;
+
+		.wrapper {
+			width: 180px;
+			height: 180px;
+
+			.image {
+				width: 100%;
+				padding-top: 100%;
+
+				background-image: url("/photo.jpeg");
+				background-size: 350px;
+
+				border-radius: 50%;
+			}
+		}			
+	}
+
+	.story {
+		margin: auto;
+
+		p{
+			width: 30ch;
+			text-align: center;
+		}
+	}
+} 

@@ -4,7 +4,8 @@ import { TweenMax, Power3, TimelineMax } from 'gsap';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons'
 
-import './main.scss';
+import './main.scss'
+import './responsive.scss'
 
 export default function Project(props) {
 	let name = useRef(null)
