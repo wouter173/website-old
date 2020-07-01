@@ -1,0 +1,18 @@
+@media (max-width: 900px) {
+	#About .content {
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-columns: 1fr;
+
+		.properties {
+			grid-row: 2/3;
+		}
+
+		.photo {
+			grid-row: 1/2;
+		}
+
+		.story {
+			grid-row: 3/4;
+		}
+	}
+}

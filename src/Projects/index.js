@@ -2,6 +2,7 @@ import React from 'react'
 import Section from '../Section'
 import Project from '../Project'
 import './main.scss'
+import './responsive.scss'
 
 export default function Projects() {
 	return (

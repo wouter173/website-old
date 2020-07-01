@@ -24,3 +24,9 @@ these are the web technology's used building my website
 - [ ] contact page
 - [x] header about scroll icon gsap animated instead of css animated
 - [x] project animtion bug: name goes down when the meta didn't animate out
+- [ ] give the header scroll icon a hover animation
+- [ ] responsive projects: always display icons and description
+- [x] responsive projects: resize smaller
+- [ ] public folder structuring
+- [ ] fix the scrolling to sections, it goes way too far
+
