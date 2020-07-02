@@ -15,18 +15,17 @@ these are the web technology's used building my website
 2. React / create-react-app
 3. gsap
 4. Sass
-5. Fontawesome
+5. Fontawesome / react-fortawesome
 
 
-## todo 
+## todo V1.0
 
-- [ ] about page
-- [ ] contact page
 - [x] header about scroll icon gsap animated instead of css animated
+- [x] responsive projects: resize smaller
 - [x] project animtion bug: name goes down when the meta didn't animate out
 - [ ] give the header scroll icon a hover animation
 - [ ] responsive projects: always display icons and description
-- [x] responsive projects: resize smaller
 - [ ] public folder structuring
 - [ ] fix the scrolling to sections, it goes way too far
+- [ ] fix margins on the about when on mobile / responsive < 900px
 

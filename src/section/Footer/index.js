@@ -4,7 +4,7 @@ import './main.scss'
 export default function Footer() {
 	return (
 		<footer id="Footer">
-			test
+			Footer
 		</footer>
 	)
 }

@@ -1,9 +1,10 @@
-import React from 'react';
-import Header from '../Header'
-import Nav from '../Nav'
-import About from '../About';
-import Projects from '../Projects';
-import Footer from '../Footer';
+import React from 'react'
+import Header from '../section/Header'
+import Nav from '../section/Nav'
+import About from '../section/About'
+import Projects from '../section/Projects'
+import Contact from '../section/Contact'
+// import Footer from '../section/Footer'
 
 import './main.scss'
 import './root.scss'
@@ -15,7 +16,8 @@ export default function App() {
 			<Header />
 			<About />
 			<Projects />
-			<Footer />
+			<Contact />
+			{/* <Footer /> */}
 		</div>
 	)
 }
