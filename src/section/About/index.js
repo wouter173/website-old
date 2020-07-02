@@ -1,6 +1,8 @@
 import React from 'react'
-import Section from '../Section'
-import Property from '../Property'
+
+import Section from '../../global/Section'
+import Property from '../../global/Property'
+
 import './main.scss'
 import './responsive.scss'
 
