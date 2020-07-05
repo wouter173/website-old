@@ -29,14 +29,14 @@ these are the web technology's used building my website
 - [x] fix header icon scrolling
 - [x] fix the scrolling to sections, it goes way too far
 - [x] add darkmode / fix global variables to reflect the values and not these non suggestive ones
+- [x] responsive footer
+- [x] public folder structuring
 ---
-- [ ] responsive footer
 - [ ] add a darkmode switch in the nav or somfn
 - [ ] fix a trello for the todo
 - [ ] in general give everything more space also when on mobile
 - [ ] give the header scroll icon a hover animation
 - [ ] responsive projects: always display icons and description
-- [ ] public folder structuring
 - [ ] fix margins on the about when on mobile / responsive < 900px
 - [ ] fix that you can tab into the Projects section and the animation plays
 - [ ] 404 page
