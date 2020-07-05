@@ -30,6 +30,7 @@ these are the web technology's used building my website
 - [x] fix the scrolling to sections, it goes way too far
 - [x] add darkmode / fix global variables to reflect the values and not these non suggestive ones
 ---
+- [ ] responsive footer
 - [ ] add a darkmode switch in the nav or somfn
 - [ ] fix a trello for the todo
 - [ ] in general give everything more space also when on mobile
@@ -39,7 +40,7 @@ these are the web technology's used building my website
 - [ ] fix margins on the about when on mobile / responsive < 900px
 - [ ] fix that you can tab into the Projects section and the animation plays
 - [ ] 404 page
-- [ ] projects page and expention: max 6 on the / routes
+- [ ] projects page and expantion: only 6 projects on the homepage
 
 
 

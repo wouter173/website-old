@@ -12,7 +12,7 @@ export default function (props) {
 	const content = (
     <FontAwesomeIcon
       icon={props.icon}
-      className={`icon ${props.dark ? 'dark' : ''} ${props.large ? 'large' : ''} ${props.huge ? 'huge' : ''}`}
+      className={`icon ${props.large ? 'large' : ''} ${props.huge ? 'huge' : ''}`}
     />
 	);
 	

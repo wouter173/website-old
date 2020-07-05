@@ -5,6 +5,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import Icon from '../../global/Icon'
 
 import './main.scss'
+import './responsive.scss'
 
 export default function Footer() {
 	return (
@@ -25,7 +26,7 @@ export default function Footer() {
 					<a href="https://www.instagram.com/wouter_db_/" target="_blank" rel="noopener noreferrer">Instagram</a><br />
 				</div>
 				<div className="bottom-text center">
-					<p>Made with <Icon icon={faHeart} dark /> by Wouter de bruijn</p>
+					<p>Made with <Icon icon={faHeart} /> by Wouter de bruijn</p>
 					<p>Copyright Wouter de bruijn 2020</p>
 				</div>
       </div>
