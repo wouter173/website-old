@@ -1,21 +1,24 @@
 .Item {
-	height: 200px;
+	height: auto;
+	width: 200px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
 
 	text-align: center;
 
 	h3 {
 		margin-top: 10px;
-		
-		a {
-			font-size: 1.2rem;
-		}
+
+		font-size: 1.2em;
 	}
 
-	a.desc {
+	p {
 		display: block;
 		margin-top: 6px;
 		opacity: 0.8;
 		
-		font-size: 1rem;
+		font-size: 1em;
 	}
 }

@@ -6,10 +6,10 @@ import './main.scss'
 
 export default function index(props) {
 	return (
-		<div className="Item">
+		<a className="Item" href={props.link} target="_blank" rel="noopener noreferrer">
 			<Icon icon={props.icon} huge/>
-			<h3><a href={props.link}>{props.name} </a></h3>
-			<a className="desc" href={props.link} target="_blank" rel="noopener noreferrer">{props.desc}</a>
-		</div>
+			<h3>{props.name}</h3>
+			<p>{props.desc}</p>
+		</a>
 	)
 }

@@ -32,6 +32,7 @@ these are the web technology's used building my website
 - [x] responsive footer
 - [x] public folder structuring
 - [x] fix that you can tab into the Projects section and the animation plays
+- [x] fix ContactItem size and everything is clickable now
 ---
 - [ ] fix that you can tab into the <a> tags from react-scroll
 - [ ] add a darkmode switch in the nav or somfn
