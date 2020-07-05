@@ -23,7 +23,8 @@ these are the web technology's used building my website
 - [x] header about scroll icon gsap animated instead of css animated
 - [x] responsive projects: resize smaller
 - [x] project animtion bug: name goes down when the meta didn't animate out
-- [ ] footer
+- [x] footer
+- [ ] in general give everything more space also when on mobile
 - [ ] give the header scroll icon a hover animation
 - [ ] responsive projects: always display icons and description
 - [ ] public folder structuring
@@ -32,4 +33,5 @@ these are the web technology's used building my website
 - [ ] fix that you can tab into the Projects section and the animation plays
 - [ ] 404 page
 - [ ] projects page and expention: max 6 on the / routes
+
 
