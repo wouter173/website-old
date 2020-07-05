@@ -8,8 +8,16 @@
 
 	background-color: var(--background-color);
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+	
+	.left {
+		float: left;
+	}
 
-	.icon {
+	.right {
+		float: right;
+	}
+
+	.logo {
 		width: 40px;
 		height: 40px;
 

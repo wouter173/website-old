@@ -2,6 +2,8 @@
 Wouter de Bruijn's personal website.
 Built using create-react-app.
 
+![logo](./public/favicon.png)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f42f95df-9705-4ed3-a576-321b62c7ea7d/deploy-status)](https://app.netlify.com/sites/wouterdb/deploys)
 
 [https://wouterdb.nl](https://wouterdb.nl)
@@ -26,6 +28,10 @@ these are the web technology's used building my website
 - [x] footer
 - [x] fix header icon scrolling
 - [x] fix the scrolling to sections, it goes way too far
+- [x] add darkmode / fix global variables to reflect the values and not these non suggestive ones
+---
+- [ ] add a darkmode switch in the nav or somfn
+- [ ] fix a trello for the todo
 - [ ] in general give everything more space also when on mobile
 - [ ] give the header scroll icon a hover animation
 - [ ] responsive projects: always display icons and description
@@ -34,5 +40,6 @@ these are the web technology's used building my website
 - [ ] fix that you can tab into the Projects section and the animation plays
 - [ ] 404 page
 - [ ] projects page and expention: max 6 on the / routes
+
 
 

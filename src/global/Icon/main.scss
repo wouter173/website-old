@@ -3,11 +3,7 @@
 	margin-right: 5px;
 
 	path {
-		color: var(--text-color-light);
-	}
-
-	&.dark path {
-		color: var(--text-color-dark);
+		color: var(--text-color);
 	}
 
 	&.large {

@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;400;600&display=swap');
 
 :root {
-	--background-color-dark: #2b2b2b;
 	--background-color-light: white;
+	--background-color-light-alt: #e5e5e5;
+
+	--background-color-dark: #2b2b2b;
+	--background-color-dark-alt: #202020;
 
 	--text-color-dark: #202020;
-	--text-color-light: white;
+	--text-color-light: #dddddd;
 
+	--background-color: var(--background-color-dark);
+	--background-color-alt: var(--background-color-dark-alt);
 
-	--background-color: var(--background-color-light);
-	
+	--text-color: var(--text-color-light);
+
 	font-size: 14px;
+	font-family: 'Public Sans', sans-serif;
 }
 
+@media (prefers-color-scheme: light) {
+	:root {
+		--background-color: var(--background-color-light);
+		--background-color-alt: var(--background-color-light-alt);
+
+		--text-color: var(--text-color-dark);
+	}
+}
 
 * {
-	color: var(--text-color-dark);
-
 	padding: 0px;
 	margin: 0px;
 
-	font-family: 'Public Sans', sans-serif;
+	color: var(--text-color);
 }
 
 a {
@@ -29,12 +41,4 @@ a {
 
 .center {
 	text-align: center;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
 }
