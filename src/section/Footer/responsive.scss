@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+	footer .content {
+		grid-template-columns: 1fr 1fr;
+
+		.logo {
+			display: none;
+		}
+
+		.links {
+			grid-column: 1/2;
+		}
+
+		.socials {
+			grid-column: 2/3;
+		}
+	}
+}

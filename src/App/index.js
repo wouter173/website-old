@@ -4,7 +4,7 @@ import Nav from '../section/Nav'
 import About from '../section/About'
 import Projects from '../section/Projects'
 import Contact from '../section/Contact'
-// import Footer from '../section/Footer'
+import Footer from '../section/Footer'
 
 import './main.scss'
 import './root.scss'
@@ -17,7 +17,7 @@ export default function App() {
 			<About />
 			<Projects />
 			<Contact />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	)
 }

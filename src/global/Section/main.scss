@@ -14,7 +14,7 @@
 		font-weight: 600;
 		font-size: 22pt;
 
-		color: var(--text-color-dark);
+		color: var(--text-color);
 	}
 
 	.divider {
@@ -23,7 +23,7 @@
 
 		margin-bottom: 60px;
 
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: var(--background-color-alt);
 	}
 
 	.content {

@@ -8,15 +8,23 @@
 
 	background-color: var(--background-color);
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+	
+	.left {
+		float: left;
+	}
 
-	.icon {
+	.right {
+		float: right;
+	}
+
+	.logo {
 		width: 40px;
 		height: 40px;
 
 		margin-top: 15px;
 		margin-left: 10%;
 
-		background-image: url("/favicon.png");
+		background-image: url("/images/favicon.png");
 		background-position: center;
 		background-size: contain;
 	}

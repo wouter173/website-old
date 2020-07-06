@@ -38,7 +38,7 @@ export default function Project(props) {
 	}
 
 	return (
-		<div className="Project" style={{ "backgroundImage": `url(${props.background})` }} onMouseEnter={MouseEnterHandler} onMouseLeave={MouseLeaveHandler}>
+		<div className="Project" tabIndex="0" style={{ "backgroundImage": `url(${props.background})` }} onBlur={MouseLeaveHandler} onFocus={MouseEnterHandler} onMouseEnter={MouseEnterHandler} onMouseLeave={MouseLeaveHandler}>
 			<div className="overlay"></div>
 			<h2 className="name" ref={el => name = el}>{props.name}</h2>
 
