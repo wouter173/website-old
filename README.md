@@ -1,12 +1,11 @@
 <p align="center">
- <img src="./public/images/favicon.png" alt="logo" width="100px" height="100px"/>
- <p>Wouter de Bruijn's personal website.</p>
- <p>Built using create-react-app.</p>
+ <img src="./public/images/favicon.png" alt="logo" width="100px" height="100px"/><br>
+ Wouter de Bruijn's personal website.<br>
+ Built using create-react-app.<br><br>
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/f42f95df-9705-4ed3-a576-321b62c7ea7d/deploy-status)](https://app.netlify.com/sites/wouterdb/deploys)
+ |
+ [https://wouterdb.nl](https://wouterdb.nl)
 </p>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f42f95df-9705-4ed3-a576-321b62c7ea7d/deploy-status)](https://app.netlify.com/sites/wouterdb/deploys)
-
-[https://wouterdb.nl](https://wouterdb.nl)
 
 
 ## Technology's
