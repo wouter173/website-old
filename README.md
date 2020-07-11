@@ -2,9 +2,7 @@
  <img src="./public/images/favicon.png" alt="logo" width="100px" height="100px"/><br>
  Wouter de Bruijn's personal website.<br>
  Built using create-react-app.<br><br>
- [![Netlify Status](https://api.netlify.com/api/v1/badges/f42f95df-9705-4ed3-a576-321b62c7ea7d/deploy-status)](https://app.netlify.com/sites/wouterdb/deploys)
- |
- [https://wouterdb.nl](https://wouterdb.nl)
+ <img src="https://api.netlify.com/api/v1/badges/f42f95df-9705-4ed3-a576-321b62c7ea7d/deploy-status"> | <a href="https://wouterdb.nl">https://wouterdb.nl</a>
 </p>
 
 
