@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./main.scss"
 
 function Wrapper(props) {
-	return <a href={props.url} target="_blank" rel="noopener noreferrer">{props.children}</a> 
+	return <a className="icon-a" href={props.url} target="_blank" rel="noopener noreferrer">{props.children}</a> 
 }
 
 export default function (props) {
@@ -12,7 +12,7 @@ export default function (props) {
 	const content = (
     <FontAwesomeIcon
       icon={props.icon}
-      className={`icon ${props.large ? 'large' : ''} ${props.huge ? 'huge' : ''}`}
+      className={`icon ${props.light ? 'light' : ''} ${props.large ? 'large' : ''} ${props.huge ? 'huge' : ''}`}
     />
 	);
 	

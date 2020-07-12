@@ -37,6 +37,11 @@
 
 a {
 	text-decoration: none;
+
+	&:focus, &:focus-within {
+		outline: none;
+		text-decoration: underline;
+	}
 }
 
 .center {

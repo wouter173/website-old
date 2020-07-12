@@ -1,7 +1,7 @@
 #Header {
 	height: calc(100vh - 70px);
 
-	background-image: url("/images/header.jpg");
+	background-image: radial-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0)), url("/images/header.jpg");
 	background-size: cover;
 	background-position: center;
 	
@@ -27,6 +27,7 @@
 	}
 
 	.scroll {
-		height: 20%;
+		height: 1em;
+		transition: font-size 0.2s;
 	}
 }
