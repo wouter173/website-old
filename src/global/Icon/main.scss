@@ -1,3 +1,8 @@
+.icon-a:focus {
+	outline: dotted;
+	outline-width: thin;
+}
+
 .icon {
 	margin-left: 5px;
 	margin-right: 5px;
@@ -6,11 +11,23 @@
 		color: var(--text-color);
 	}
 
+	&.light path {
+		color: var(--text-color-light);
+	}
+
+	&.dark path {
+		color: var(--text-color-dark);
+	}
+
 	&.large {
 		font-size: 1.4em;
 	}
 
 	&.huge {
 		font-size: 3.4em;
+	}
+
+	path:focus, path:focus-within {
+		outline: auto;
 	}
 }

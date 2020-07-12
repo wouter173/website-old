@@ -3,12 +3,14 @@
 		grid-template-rows: repeat(3, 1fr);
 		grid-template-columns: 1fr;
 
-		.properties {
-			grid-row: 2/3;
-		}
-
 		.photo {
 			grid-row: 1/2;
+		}
+
+		.properties {
+			grid-row: 2/3;
+			
+			margin-top: 30px;
 		}
 
 		.story {

@@ -38,7 +38,7 @@ export default function Project(props) {
 	}
 
 	return (
-		<div className="Project" tabIndex="0" style={{ "backgroundImage": `url(${props.background})` }} onBlur={MouseLeaveHandler} onFocus={MouseEnterHandler} onMouseEnter={MouseEnterHandler} onMouseLeave={MouseLeaveHandler}>
+		<div className="Project" style={{ "backgroundImage": `url(${props.background})` }} onBlur={MouseLeaveHandler} onFocus={MouseEnterHandler} onMouseEnter={MouseEnterHandler} onMouseLeave={MouseLeaveHandler}>
 			<div className="overlay"></div>
 			<h2 className="name" ref={el => name = el}>{props.name}</h2>
 
@@ -46,8 +46,8 @@ export default function Project(props) {
 				<h4 className="description">{props.description}</h4>
 
 				<div className="icons">
-					{props.repo && <Icon icon={faGithubSquare} link={props.repo} large />}
-					{props.link && <Icon icon={faExternalLinkSquareAlt} link={props.link} large />}
+					{props.repo && <Icon icon={faGithubSquare} link={props.repo} light large />}
+					{props.link && <Icon icon={faExternalLinkSquareAlt} link={props.link} light large />}
 				</div>
 			</div>
 		</div>

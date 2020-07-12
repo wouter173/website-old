@@ -1,5 +1,13 @@
 @media (max-width: 900px) {
 	.Project {
 		height: 220px;
+
+		.name {
+			transform: translate(-50%, calc(-50% - 1.4em));
+		}
+
+		.meta {
+			opacity: 1;
+		}
 	}
 }
