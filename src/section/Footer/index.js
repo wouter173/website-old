@@ -27,7 +27,7 @@ export default function Footer() {
 				</div>
 				<div className="bottom-text center">
 					<p>Made with <Icon icon={faHeart} /> by Wouter de Bruijn</p>
-					<p>Copyright Wouter de bruijn 2020</p>
+					<p>Copyright Wouter de Bruijn 2020</p>
 				</div>
       </div>
     </footer>
