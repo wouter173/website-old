@@ -7,12 +7,16 @@ const options = {
 
 exports.handler = (_event, _context, callback) => {
 	Mongo.MongoClient.connect(uri, options, (err, client) => {
-		if (err) return callback(err);
+		if (err) {
+			client.close();
+			return callback(err);
+		}
 
 		const db = client.db('Website');
 		const collection = db.collection("Projects");
 
 		collection.find({}).toArray((err, docs) => {
+			client.close();
 			if (err) return callback(err);
 			return callback(null, { statusCode: 200, body: JSON.stringify(docs) });
 		});
