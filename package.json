@@ -11,6 +11,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "gsap": "^3.3.4",
+    "mongodb": "^3.5.9",
+    "netlify-lambda": "^1.6.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -20,7 +22,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "lambda:start": "dotenv netlify-lambda serve functions",
+    "lambda:build": "netlify-lambda build functions",
+    "postinstall": "npm run lambda:build"
   },
   "eslintConfig": {
     "extends": "react-app"
