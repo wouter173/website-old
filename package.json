@@ -20,8 +20,8 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "react:start": "react-scripts start",
+    "react:build": "react-scripts build",
     "lambda:start": "dotenv netlify-lambda serve functions",
     "lambda:build": "netlify-lambda build functions",
     "postinstall": "npm run lambda:build"
