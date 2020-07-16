@@ -8,7 +8,7 @@ const options = {
 const allowedOrigins = ['https://wouter173.nl', 'https://wouterdb.nl', 'http://localhost:3000'];
 
 exports.handler = (event, _context, callback) => {
-	let origin = event.headers['origin'] || null;
+	let origin = event.headers['origin'] || '';
 	if (origin && !allowedOrigins.includes(origin)) return callback("Origin not allowed.");
 
 	Mongo.MongoClient.connect(uri, options, (err, client) => {
