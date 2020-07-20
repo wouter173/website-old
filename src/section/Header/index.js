@@ -32,7 +32,7 @@ export default function Header() {
       <div className="scroll center">
         <Link to="About" smooth={true} offset={-150}>
           <div ref={el => icon = el} onMouseEnter={() => {timeline.pause()}} onMouseLeave={() => {timeline.resume()}}>
-            <Icon icon={faAngleDoubleDown} large/>
+            <Icon icon={faAngleDoubleDown} large light/>
           </div>
         </Link>
       </div>
