@@ -2,8 +2,8 @@ import React from 'react'
 import { faGithubSquare, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-import Section from '../../global/Section'
-import Item from '../../global/ContactItem'
+import Section from '../../../global/Section'
+import Item from './ContactItem'
 
 import './main.scss'
 import './responsive.scss'

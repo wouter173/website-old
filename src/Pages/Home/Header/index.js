@@ -3,7 +3,7 @@ import { TimelineMax } from 'gsap'
 import { Link } from 'react-scroll'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 
-import Icon from '../../global/Icon';
+import Icon from '../../../global/Icon';
 
 import './main.scss'
 
