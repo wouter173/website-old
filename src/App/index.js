@@ -12,7 +12,7 @@ export default function App() {
     <div id="App">
 			<Switch>
 				<Route exact path="/" component={Home} />
-				<Route exact path="/error" component={Error} />
+				<Route component={Error} />
       </Switch>
     </div>
   );
