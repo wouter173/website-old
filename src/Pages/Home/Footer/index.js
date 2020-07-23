@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
-import Icon from '../../global/Icon'
+import Icon from '../../../global/Icon'
 
 import './main.scss'
 import './responsive.scss'

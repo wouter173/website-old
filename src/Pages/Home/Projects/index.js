@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
-import Section from '../../global/Section'
-import Project from '../../global/Project'
+import Section from '../../../global/Section'
+import Project from '../../../global/Project'
 
 import './main.scss'
 import './responsive.scss'
