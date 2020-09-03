@@ -11,14 +11,13 @@
  <a href="https://fontawesome.com/">Fontawesome</a>
 </p>
 
-## Technology's
+## Technologies
 
-these are the web technology's used building my website
+These are the web technologies I used building my website.
 
-0. trello
-
-1. Netlify
-2. React / create-react-app
-3. gsap
-4. Sass
-5. Fontawesome / react-fortawesome
+- trello
+- Netlify
+- React / create-react-app
+- gsap
+- Sass
+- Fontawesome / react-fortawesome

@@ -5,7 +5,10 @@ const options = {
 	useUnifiedTopology: true
 };
 
-const allowedOrigins = ['https://wouter173.nl', 'https://wouterdb.nl', 'http://localhost:3000'];
+const allowedOrigins = ['https://wouter173.nl', 'https://wouterdb.nl'];
+if (process.env.Environment === "development") {
+	allowedOrigins.push('http://localhost:3000');
+}
 
 exports.handler = (event, _context, callback) => {
 	let origin = event.headers['origin'] || '';
